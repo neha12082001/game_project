@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 2, 17);
+}
+@font-face {
+    font-family: 'Andreash';
+    src: url(./WalcottGothicJFHollywood\ Regular.ttf);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 2, 17);
+    color: #d0f404;
+    
+}
+       .navbar{
+    align-items: center;
+    height: 8vh;
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.navbar .logo{
+    display: flex; 
+    align-items: center; 
+}
+.logo-img{
+    height: 6vh;
+    width: 8vh;
+    margin-right: 5px;
+    margin-left: 4vh;
+}
+.sign-in{
+    padding: 5px ;
+    margin-right: 8vh;
+    background-color: black;
+    color: #d0f404;
+    font-family: "Anta", sans-serif;
+    border-color: #d0f404;
+    border-width: .5px;
+}
+.nav-elements a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+.div-2{
+
+    /* height: 8vh; */
+    width: 65%;
+    margin: auto;
+    margin-top: 70px;
+    background-image: url(./IMG_20240312_115131\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 50px; */
+
+}
+
+.div-2 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Andreash';
+
+}
+
+.div-2 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.button-1{
+    width: 20%;
+    height: 50px;
+    background-color: yellow;
+    color: black;
+    font-family: "Andreash";
+
+}
+
+.button-2{
+    width: 17%;
+    height: 50px;
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+    font-family: "Andreash";
+
+
+}
+
+.div3{
+    height: 35vh;
+    width: 65%;
+    margin: auto;
+    overflow: hidden;   
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+.div3 .div3-1{
+    height: 8vh;
+    font-family: 'Andreash';
+    
+}
+.div3 .div3-1 h1{
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 4vh;
+    font-size: 40px;
+    font-family: 'Andreash';
+
+    
+}
+.div3-2{
+    height: 24.5vh;
+    width: 120%;
+    display: flex;
+    margin-left: 7vh;
+}
+.div3-2-1{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+.discription-1 h3,.discription-1 p{
+    display: inline-block; 
+    margin: 0;
+    color: white;
+    margin-left: 20px;
+
+
+}
+.discription-1 h3{
+    font-family: 'Andreash';
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Andreash';
+
+}
+.discription-1 p{
+    font-family: "roboto";
+    font-weight: 100;
+}
+
+.product1-img{
+    height: 100%;
+    width:60%;
+}
+.product1-img img{
+    width: 90%;
+    height: 100%;
+    
+}
+.div3-2-2{
+    height: 100%;
+    width: 46%;
+    align-items: center;
+    display: flex;
+
+}
+.discription-2 h3,.discription-2 p{
+    display: inline-block; 
+    margin: 0;
+    color: white;
+    margin-left: 20px;
+}
+.discription-2 h3{
+    font-family: 'Andreash';
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.discription-2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.discription-2 p{
+    font-family: "roboto";
+    font-weight: 100;
+}
+
+.product2-img{
+    height: 100%;
+    width:68%;
+}
+.product2-img img{
+    width: 98%;
+    height: 102%;
+    
+}
+
+.div4{
+    height: 50vh;
+    width: 65%;
+    margin: auto;
+}
+.div4 {
+    height: 69vh;
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.div4-heading {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4-heading h1 {
+    color: white;
+    font-family: 'Andreash';
+    letter-spacing: 2px;
+}
+
+.images1,
+.images2 {
+    width: 100%;
+    height: 26vh;
+    margin-top: 7px;
+}
+
+.img3-5,
+.img6-9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3-5 img,
+.img6-9 img {
+    width: 43vh;
+    height: fit-content; /* or auto, depending on your preference */
+    margin-right: 10px; /* Add margin-right to create space between images */
+}
+
+.img3-5 .img-4,
+.img3-5 .img-3,
+.img3-5 .img-5,
+.img6-9 .img-6,
+.img6-9 .img-7,
+.img6-9 .img-8,
+.img6-9 .img-9 {
+    height: 26vh;
+}
+
+.img3-5 .img-4,
+.img3-5 .img-3,
+.img3-5 .img-5,
+.img6-9 .img-6,
+.img6-9 .img-7,
+.img6-9 .img-8,
+.img6-9 .img-9 {
+    height: 26vh;
+}
+.img6-9 .img-7, .img6-9 .img-8{
+    width: 26vw;
+}
+.img6-9 img:last-child {
+    margin-right: 0; /* Remove margin from the last image to avoid extra space */
+}
+
+.div4-button {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4-button button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 25vh;
+    color: black;
+    background-color: #CCF302;
+    border: none;
+    font-family: "Andreash";
+    letter-spacing: 1px;
+    box-shadow: 0 0 18px rgb(179, 255, 0);
+}
+
+.div5{
+    height: 70vh;
+    width: 65%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    margin-bottom: 10vh;
+  }
+  .div5-left{
+    height: 100%;
+    width: 45%;
+  }
+  .div5-left .img-10{
+    margin-top: 3vh;
+    margin-left: 5vh;
+    height: 45vh;
+    width: 33vh;
+  }
+  .div5-left .img-11{
+    position: absolute;
+    border: 15px solid black;
+    height: 45vh;
+    width: 33vh;
+    margin-top: 13vh;
+    margin-left:-5vw;
+  }
+  .div5-right{
+    height: 100%;
+    width: 55%;
+  }
+  .img-content10{
+    height: 100%;
+    width: 100%;
+    margin-left: 4vw;
+  }
+  .img-content10 h1{
+    font-family: 'Andreash';
+    color: white;
+    margin-top: 13vh;
+  }
+  .img-content10 p{
+    font-family: "roboto";
+    font-weight: 100;
+    color: white;
+    margin-top: 3vh;
+  }
+  .img-content10 span {
+    margin-top: 7vh;
+    display: flex; /* Add flexbox display */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .play {
+    height: 7vh; /* Adjust height */
+    width: auto; /* Allow width to adjust based on height */
+    margin-left: 5px; /* Add some margin for spacing */
+  }
+.getstarted2{
+    width: 10vw;
+    height: 5vh;
+    background-color:#CCF302 ;
+    font-family: "Andreash";
+    letter-spacing: 1px;
+    border: none;
+    box-shadow: 0 0 18px rgb(179, 255,0);
+}
+
+.div6{
+    position: absolute;
+    background-color:#CCF302;
+    height: 35vh;
+    width:55%;
+    margin: auto;
+    margin-top: -1vh;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    margin-left: 20vw;
+  }
+  .div6 p{
+    font-family: "roboto";
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  .div6 h1{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+  }
+  .subscribe{
+    background-color: black;
+    height: 6vh;
+    width: 27vw;
+    margin-left: 28vh;
+    margin-top: 3vh;
+    display: flex;
+     align-items: center;
+  }
+
+  .div6 span{
+    margin-top: 7vh;
+  }
+  .subscribe label{
+    color: white;
+    margin-right: 10px;
+    margin-left: 1.2vw;
+    font-family: "roboto";
+    opacity: 0.5;
+    font-weight: 200;
+    font-size: 13.5px;
+  }
+  .subscribe button{
+    height: 3.8vh;
+    width: 8vw;
+    margin-left: 6vw;
+    background-color:  #CCF302;
+    border: none;
+    
+  }
+  footer{
+    position: relative;
+    z-index: -1;
+    height: 630px;
+}
+footer img{
+    height: 600px;
+    width: 100%;
+    opacity: 0.2;
+}
+.footer-text{
+    width: 90%;
+    margin-left: 85px;
+}
+.footer{
+    width: 90%;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content{
+    width: 350px;
+}
+.neon-div{
+    height: 200px;
+    width: 700px;
+    background-color: #BDFC27;
+    padding: 50px;
+    text-align: center;
+    margin-left: 300px;
+    position: absolute;
+    top: -100px;
+    
+}
+.neon-div h2{
+    font-size: 30px;
+}
+ 
+.logo1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+       
+}
+.list{
+    padding: 90px;
+    text-align: left;
+    color: white;
+    font-family: 'roboto';
+}
+th{
+padding-left: 100px;
+}
+td{
+    padding-left: 100px;
+    font-weight: lighter;
+}
+hr{
+    width: 90%;
+    position: absolute;
+    bottom:350px;
+}
+.empty-row {
+    height: 20px; /* Adjust the height as needed */
+  }
+
+.footer-content p{
+    font-family: 'roboto';
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 8px;
+}
